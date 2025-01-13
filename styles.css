@@ -1,10 +1,12 @@
 body {
     font-family: "Outfit", serif;
     background-color: hsl(212, 45%, 89%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 .code-scanner { 
@@ -19,13 +21,13 @@ body {
     max-width: 100%;
 }
 
-.code-scanner-info p {
+.code-scanner-info {
     text-align: center;
     line-height: 1.5;
 }
 
 .code-scanner-info .intro {
-    font-weight: 600;
+    
     margin-top: 0.625rem;
     font-size: 0.9375rem;
 }
