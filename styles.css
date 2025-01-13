@@ -2,47 +2,42 @@ body {
     font-family: "Outfit", serif;
     background-color: hsl(212, 45%, 89%);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 90vh;
 }
 
-.code-scanner {
-    height: 50vh;
-    width: 200px;
-    padding: 10px 10px 20px 10px;
+.code-scanner { 
+    padding: 0.8rem 0.7rem 1rem;
+    max-width: 12rem;
     background-color: white;
     border-radius: 15px;
 }
 
 .code-scanner-image img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: block;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .code-scanner-info p {
     text-align: center;
-    line-height: 20px;
+    line-height: 1.5;
 }
 
 .code-scanner-info .intro {
     font-weight: 600;
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 0.625rem;
+    font-size: 0.9375rem;
 }
 
 .code-scanner-info .cta {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 0.7rem;
 }
 
 .attribution { 
-    margin-top: 10px;
-    font-size: 11px; 
+    margin-top: 0.625rem;
+    font-size: 0.6875rem;
     text-align: center;
 }
 
